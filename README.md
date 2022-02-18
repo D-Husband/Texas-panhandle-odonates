@@ -20,4 +20,3 @@ Abiotic Data
 
 R_Code --> all R code/analyses associated with given data
 
-Excel Files Folder --> excel files of all CSV's in folder 
