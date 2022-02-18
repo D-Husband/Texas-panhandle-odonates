@@ -1,0 +1,66 @@
+Workflow for creating field surveys using Survey123
+Author: D Husband 
+Year: 2022
+
+
+Survey123 is available through ArcGIS organization accounts (includes publishing
+privileges). One can get a 21-Day Education Trial but be cautioned as everything 
+created will be deleted after 21 days. 
+
+This is a tutorial for getting started:
+<https://learn.arcgis.com/en/projects/get-started-with-arcgis-survey123/> 
+
+Some important considerations:
+Design surveys based on the specific data you need to collect. Each data field 
+you set, like a measurement field, will be a row and column value in an excel 
+spreadsheet. Some fields do not bear repeating such as observer, unless only 
+one ArcGIS profile is used, and identity is not preserved. 
+
+Fields can be set as mandatory (red *, or Validation) which means the survey 
+will not submit unless fields are completed. 
+
+Using Survey123 in the field: it is best used on a mobile device such as a 
+cell phone, tablet, etc. In a lab setting, you can submit forms through a 
+computer as well which may be more efficient than paper datasheets. 
+
+Map tiles will update to your device's Lat Long location. 
+
+
+Workflow:
+
+Created new survey application titled "Odonate Site Visit Survey."
+
+Select and drag Date and Time and check Validation box, "This 
+is a required question." 
+
+Select and drag Singleline Text. Title "Site Name" with a Hint "i.e. Tahoka Lake."
+and check Validation box, "This is a required question." 
+
+Select and drag Multiple Choice. Title "Which point are you currently
+surveying?" with a Hint "i.e. This is the second survey point. Select 
+"Point 2." Surveying with multiple observers? Negotiate points." 
+Check Validation box, "This is a required question." 
+
+Select and drag Map. 
+
+Select and drag Single Choice. Title "Sampling Substrate" with a Hint "i.e. 
+I am standing on bare ground conducting this survey." Set choices 
+"Grass, Bare Ground, Edge Vegetation, Concrete." Check Allow "Other," enter 
+"Other Ground Cover."
+
+Select and drag Single Choice. Title "Survey distance from water's edge." 
+Set choices, "<1m, 1-2m, >2m." 
+
+Select and drag Single Choice Grid. Title "Dragonfly." Set choices (columns)
+"1-5 individuals, 6-20, 21-100, >100." Questions (rows) to dragonfly
+species and "None of the above."
+
+Repeat for "Damselfly."
+
+Select Multiline Text. Title "Other Survey Notes" with a Hint "i.e. ID uncertainties, 
+survey point notes." 
+
+Hit Preview to view survey. Select Publish to share the survey for all users 
+the survey is shared with. 
+
+
